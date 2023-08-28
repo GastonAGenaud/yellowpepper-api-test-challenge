@@ -1,0 +1,23 @@
+{
+    "stepDefinitions": [
+      "**/*-steps.js"
+    ],
+    "messages": {
+      "enabled": false,
+      "output": "jsonlogs/messages.ndjson"
+    },
+    "html": {
+      "enabled": true
+    },
+    "json": {
+      "enabled": true,
+      "output": "jsonlogs/log.json",
+      "formatter": "pre-requisites/windows/cucumber-json-formatter.exe"
+    },
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
