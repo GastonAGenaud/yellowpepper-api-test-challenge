@@ -1,6 +1,4 @@
 // cypress/support/commands.js
-import 'cypress-file-upload';
-import "cypress-real-events";
 
 
 Cypress.Commands.add('apiGet', (path) => {
