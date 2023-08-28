@@ -29,11 +29,8 @@ Cypress provides a robust, all-in-one testing framework that doesn't require set
 
 ### Additional Libraries
 
-- `cypress-file-upload`: For handling file uploads in tests.
-- `cypress-real-events`: To simulate real user events like 'hover', 'drag', etc.
 - `cypress-mochawesome-reporter` and `cypress-multi-reporters`: For generating and customizing test reports.
 - `dotenv`: To manage environment variables.
-- `custom-env`: To load environment-specific variables.
 
 ## How to Run Tests
 
